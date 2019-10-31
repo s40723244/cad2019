@@ -1,75 +1,65 @@
-<h1>About</h1>
-<p>此內容管理系統以 <a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 作為 submodule 運作, 可以選定對應的版本運作, cmsimde 可以持續改版, 不會影響之前設為 submodule, 使用舊版 cmsimde 模組的內容管理相關運作.</p>
-<h4>利用 cmsimde 建立靜態網誌方法:</h4>
-<p>1. 在 github 建立倉儲, git clone 到近端</p>
-<p>2. 參考 <a href="https://github.com/mdecourse/newcms">https://github.com/mdecourse/newcms</a>, 加入除了 cmsimde 目錄外的所有內容</p>
-<p>以 git submodule add <a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> cmsimde</p>
-<p>建立 cmsimde 目錄, 並從 github 取下子模組內容.</p>
-<p>3.在近端維護時, 更換目錄到倉儲中的 cmsimde, 以 python wsgi.py 啟動近端網際伺服器.</p>
-<p>動態內容編輯完成後, 以 generate_pages 轉為靜態內容, 以 git add commit 及 push 將內容推到遠端.</p>
-<p>4. 之後若要以 git clone 取下包含 submodule 的所有內容, 執行:</p>
-<p>git clone --recurse-submodules <a href="https://github.com/mdecourse/newcms.git">https://github.com/mdecourse/newcms.git</a></p>
-<h1>Develop</h1>
-<p><a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 的開發, 可以在一個目錄中放入 cmsimde, 然後將 up_dir 中的內容放到與 cmsimde 目錄同位階的地方, 使用 command 進入 cmsimde 目錄, 執行 python wsgi.py, 就可以啟動, 以瀏覽器 https://localhost:9443 就可以連接, 以 admin 作為管理者密碼, 就可以登入維護內容.</p>
-<p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
-<p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p>
 <h1>week</h1>
-<h2>week2</h2>
+<p><a href="https://s40723244.github.io/cad2019/content/week2-5.html">week2-5</a></p>
+<p><a href="https://s40723244.github.io/cad2019/content/week6-9.html">week6-9</a></p>
+<p><a href="https://s40723244.github.io/cad2019/content/week10-14.html">week10-14</a></p>
+<p><a href="https://s40723244.github.io/cad2019/content/week15-18.html">week15-18</a></p>
+<h2>week2-5</h2>
+<h3>week2</h3>
 <h4>本周目標:架設個人網站</h4>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/R7eVU4VwxHE" width="560"></iframe></p>
+<p><iframe allowfullscreen="allowfullscreen" data-mce-fragment="1" height="314" src="//www.youtube.com/embed/R7eVU4VwxHE" width="560"></iframe></p>
 <p>1.先至個人githubthub建立一個新的倉儲將其命名為 "cad2019" 並將下面的</p>
 <p>lnitialize this repository with a README選項打勾以建立倉儲</p>
 <p>並且設定github page</p>
-<p style="text-align: center;"><img caption="false" height="540" src="/images/建立倉儲.png" width="960"/></p>
-<p style="text-align: center;">(建立倉儲)</p>
-<p style="text-align: center;"><img caption="false" height="540" src="/images/選擇分業.png" width="960"/></p>
-<p style="text-align: center;">(選擇分頁)</p>
+<p><img caption="false" height="540" src="/images/建立倉儲.png" width="960"/></p>
+<p>(建立倉儲)</p>
+<p><img caption="false" height="540" src="/images/選擇分業.png" width="960"/></p>
+<p>(選擇分頁)</p>
 <p>2.下載 <a href="https://drive.google.com/file/d/1fxMdqdCoCL__O1IpZ-Sv-A_4-c77Wx4E/view">課程套件</a> 並解壓縮放入隨身碟中</p>
-<p style="text-align: center;"><img caption="false" height="540" src="/images/下載可熙套件.png" width="960"/></p>
-<p style="text-align: center;">(下載可攜套件)</p>
-<p style="text-align: center;"><img caption="false" height="540" src="/images/解壓縮.png" width="960"/></p>
-<p style="text-align: center;">(解壓縮)</p>
+<p><img caption="false" height="540" src="/images/下載可熙套件.png" width="960"/></p>
+<p>(下載可攜套件)</p>
+<p><img caption="false" height="540" src="/images/解壓縮.png" width="960"/></p>
+<p>(解壓縮)</p>
 <p>3.將倉儲 git clone 下來(若在學校中需要設定proxy)</p>
-<p style="text-align: center;"><img alt="" height="540" src="/images/複製倉儲位置.png" width="960"/></p>
-<p style="text-align: center;">(複製倉儲網址)</p>
-<p style="text-align: center;"><img alt="" height="540" src="/images/clone.png" width="960"/></p>
-<p style="text-align: center;">(clone下來)</p>
-<p style="text-align: center;"><img alt="" height="540" src="/images/設定PROXY1.png" width="960"/></p>
-<p style="text-align: center;">(到home_mdecourse設定proxy)</p>
-<p style="text-align: center;"><img alt="" height="540" src="/images/PROXY.png" width="960"/></p>
-<p style="text-align: center;">(開啟.gitcongif設定proxy=[2001:288:6004:17::17]:3128)</p>
+<p><img alt="" height="540" src="/images/複製倉儲位置.png" width="960"/></p>
+<p>(複製倉儲網址)</p>
+<p><img alt="" height="540" src="/images/clone.png" width="960"/></p>
+<p>(clone下來)</p>
+<p><img alt="" height="540" src="/images/設定PROXY1.png" width="960"/></p>
+<p>(到home_mdecourse設定proxy)</p>
+<p><img alt="" height="540" src="/images/PROXY.png" width="960"/></p>
+<p>(開啟.gitcongif設定proxy=[2001:288:6004:17::17]:3128)</p>
 <p>4.這學期近端有所變更需要使用 git submodule 將子模組下載下來</p>
 <p>其指令為 git submodule add https://github.com/mdecourse/cmsimde.git cmsimde</p>
-<p style="text-align: center;"><img alt="" height="540" src="/images/submodule.png" width="960"/></p>
-<p style="text-align: center;">(利用submodule載入子模組)</p>
+<p><img alt="" height="540" src="/images/submodule.png" width="960"/></p>
+<p>(利用submodule載入子模組)</p>
 <p>5.進入倉儲資料夾中打開 cmsimde --&gt; up_dir 將檔案全選後複製到倉儲資料夾中</p>
-<p style="text-align: center;"><img alt="" height="540" src="/images/cmsimde.png" width="960"/></p>
-<p style="text-align: center;">(打開倉儲資料夾中的cmsimde)</p>
-<p style="text-align: center;"><img alt="" height="540" src="/images/UP_DIR.png" width="960"/></p>
-<p style="text-align: center;">(在開啟裡面的up_dir)</p>
-<p style="text-align: center;"><img alt="" height="540" src="/images/全選.png" width="960"/></p>
-<p style="text-align: center;">(將檔案全選後copy並回到倉儲資料夾貼上)</p>
+<p><img alt="" height="540" src="/images/cmsimde.png" width="960"/></p>
+<p>(打開倉儲資料夾中的cmsimde)</p>
+<p><img alt="" height="540" src="/images/UP_DIR.png" width="960"/></p>
+<p>(在開啟裡面的up_dir)</p>
+<p><img alt="" height="540" src="/images/全選.png" width="960"/></p>
+<p>(將檔案全選後copy並回到倉儲資料夾貼上)</p>
 <p>6.在cmd視窗中切換至 cmsimdede 資料夾 輸入 python wsgi.py 開啟近端伺服器</p>
 <p>(首次執行需額外再輸入 python -m pip install flask_cors下載套件)</p>
-<p style="text-align: center;"><img alt="" height="540" src="/images/python++.png" width="960"/></p>
-<p style="text-align: center;">(下載<span>flask_cors</span>套件)</p>
-<p style="text-align: center;"><img alt="" height="540" src="/images/PYTHON_SERVER.png" width="960"/></p>
-<p style="text-align: center;">(架設近端伺服器)</p>
+<p><img alt="" height="540" src="/images/python++.png" width="960"/></p>
+<p>(下載<span>flask_cors</span>套件)</p>
+<p><img alt="" height="540" src="/images/PYTHON_SERVER.png" width="960"/></p>
+<p>(架設近端伺服器)</p>
 <p>7.打開瀏覽器輸入 https://localhost:9443 (埠號為個人所設定 預設為9443)進行編輯</p>
 <p>且打開靜態網頁查看編輯結果</p>
-<p style="text-align: center;"><img alt="" height="540" src="/images/WEB.png" width="960"/></p>
-<p style="text-align: center;">(動態近端網址)</p>
-<p style="text-align: center;"><img alt="" height="540" src="/images/edit.png" width="960"/></p>
-<p style="text-align: center;">(更改動態近端內容後轉化為靜態近端)</p>
-<p style="text-align: center;"><img alt="" height="540" src="/images/9444.png" width="960"/></p>
-<p style="text-align: center;">(靜態近端網址)</p>
-<p style="text-align: center;"><img alt="" height="540" src="/images/8444.png" width="960"/></p>
-<p style="text-align: center;">(查看是否修改成功)</p>
+<p><img alt="" height="540" src="/images/WEB.png" width="960"/></p>
+<p>(動態近端網址)</p>
+<p><img alt="" height="540" src="/images/edit.png" width="960"/></p>
+<p>(更改動態近端內容後轉化為靜態近端)</p>
+<p><img alt="" height="540" src="/images/9444.png" width="960"/></p>
+<p>(靜態近端網址)</p>
+<p><img alt="" height="540" src="/images/8444.png" width="960"/></p>
+<p>(查看是否修改成功)</p>
 <p>8.編輯完成後將檔案 git push 至雲端後 完成本周的目標</p>
-<p style="text-align: center;"><img alt="" height="540" src="/images/PUSH.png" width="960"/></p>
-<p style="text-align: center;">(將檔案push至github)</p>
-<h2>week3</h2>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/3IWNvAf47HY" width="560"></iframe></p>
+<p><img alt="" height="540" src="/images/PUSH.png" width="960"/></p>
+<p>(將檔案push至github)</p>
+<h3>week3</h3>
+<p><iframe allowfullscreen="allowfullscreen" data-mce-fragment="1" height="314" src="//www.youtube.com/embed/3IWNvAf47HY" width="560"></iframe></p>
 <h5>本周目標:編譯Solvespace</h5>
 <p>1.先將 Y:\portablegit\bin\sh.exe 改名為 sh_rename_for_solvespace.exe</p>
 <p>2.利用利用 git version 檢查當前 git 版本<br/><br/>若是在2.13以上則可使用 git clone --recurse-submodules 取得所有子模組資料</p>
@@ -88,12 +78,12 @@
 <p>mkdir build -&gt; cd build -&gt; cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release <span>搜尋系統有哪些可用項目</span></p>
 <p>最後 mingw32-make 等待其編譯</p>
 <p>7.完成且成功後就可以啟動 solvespace開始學習繪製囉</p>
-<h2>week4</h2>
+<h3>week4</h3>
 <h5>本周目標:將先前三周的進度趕上</h5>
 <p>這個禮拜主要是將先前三周的進度趕上</p>
 <p>以便於後續的<span> solvespace作業進行</span></p>
-<h2>week5</h2>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/0gxQ9rkZ2nY" width="560"></iframe></p>
+<h3>week5</h3>
+<p><iframe allowfullscreen="allowfullscreen" data-mce-fragment="1" height="314" src="//www.youtube.com/embed/0gxQ9rkZ2nY" width="560"></iframe></p>
 <h5>本周目標:學習solvespace繪製圖形</h5>
 <p>1.先畫出一個正方形<br/>2.選取任相鄰兩邊利用equal length/radius/angle(Q)使邊等長<br/>3.再選取任一邊使用constrain distance(D)設定邊長45<br/>4.利用extrude(shift+X)使其形成一個長方體<br/>5.旋轉視角後再將其邊長等長形成一個正方體<br/>6.選擇兩邊及一個頂點後按New Group &gt; Sketch In New Workplone(Shift+w)<br/>7.按F變成適當大小後用sketch circle(C)畫一個圓<br/>8.點選圓周使用constrain distance(D)設定直徑25<br/>9.用Sketch datum point(P)畫出兩個點<br/>10.點選任一點與任一邊按(M)讓他置於線段中點<br/>11.對另一點與相鄰的另一邊重複這個動作<br/>12.點選圓心以及與圓心垂直的點按verticel(V)使其對準並鎖定<br/>13.點選圓心以及與圓心平行的點按horizontal(H)使其對準並鎖定<br/>14.利用extrude(shift+X)使其形成一個圓柱體<br/>15.按F變成適當大小後使用constrain distance(D)設定厚度3<br/>16.點選旁邊相鄰面的任兩邊線及點使用Sketch In New Workplone(Shift+w)轉向<br/>17.重複畫圓、鎖定以及形成圓柱的動作<br/>18.點擊Hide shaded view of solid model讓視圖更好找線<br/>19.點選圓柱厚度線與上一條圓柱厚度線按equal length/radius/angle(Q)使邊等長<br/>20.點選上面垂直面的任兩邊線及點使用Sketch In New Workplone(Shift+w)轉向<br/>21.重複畫圓、鎖定、形成圓柱以及設定長度的動作<br/>22.點選其中一個圓的圓心使用Sketch In New Workplone(Shift+w)轉向<br/>23.再圓心重複畫圓、鎖定以及形成圓柱的動作形成一個直徑12的圓柱<br/>24.再其他兩圓重複畫圓、鎖定以及形成圓柱的動作<br/>25.將所有圓柱的長度設定為20</p>
 <p>------------------常用指令列表<span>------------------</span></p>
@@ -117,14 +107,45 @@
 <p>split line(I)</p>
 <p>tangent arc(shift+A)</p>
 <p>benchmark(P)</p>
-<h2>week6</h2>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/QhnCFk9hRps" width="560"></iframe></p>
+<h2>week6-9</h2>
+<h3>week6</h3>
+<p><iframe allowfullscreen="allowfullscreen" data-mce-fragment="1" height="314" src="//www.youtube.com/embed/QhnCFk9hRps" width="560"></iframe></p>
 <h5>本周目標1:利用silvespacec繪製零件並組裝成車子</h5>
 <h5>1.打開Solvespace<br/>2.畫一個長方體(20X30X5)<br/>3.在長方體的兩側在畫出兩個長方體(3X30X10)<br/>4.在長方體兩邊畫直徑2mm的圓<br/>5.shift+x選擇difference除料20mm完成軸孔<br/>6.開新檔案畫直徑15mm厚3mm的圓柱<br/>7.在中心畫直徑2mm厚5mm的圓柱<br/>8.打開本體將所有輪子組合上去<br/>9.完成第一步</h5>
 <p>-------------------------------------------------------------------------------------------------------------</p>
-<h5><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/xxg4ScIhvFc" width="560"></iframe></h5>
+<h5><iframe allowfullscreen="allowfullscreen" data-mce-fragment="1" height="314" src="//www.youtube.com/embed/xxg4ScIhvFc" width="560"></iframe></h5>
 <h5>本周目標2:利用V-rep模擬車子的運動情形</h5>
 <p>1.到課程網站下載V-rep 3.6.1 rev 4.7z以及web_vrep2.zip<br/>2.將檔案解壓縮放到隨身系統<br/>3.打開V-rep開啟two_wheeler.ttt<br/>4.將app.py執行開啟近端控制<br/>5.預設埠號為5000且不用https<br/>6.嘗試控制車輛<br/>7.完成第二步</p>
 <p>-------------------------------------------------------------------------------------------------------------</p>
 <h5>本周目標3:<span>透過Python程式啟動或停止V-rep模擬</span></h5>
 <p><img caption="false" height="314" src="/images/1_Kr-r8E0ExCQeu4AyPNq1eg.gif" width="560"/></p>
+<h3>week7</h3>
+<h3>week8</h3>
+<h3>week9</h3>
+<h2>week10-14</h2>
+<h3>week10</h3>
+<h3>week11</h3>
+<h3>week12</h3>
+<h3>week13</h3>
+<h3>week14</h3>
+<h2>week15-18</h2>
+<h3>week15</h3>
+<h3>week16</h3>
+<h3>week17</h3>
+<h3>week18</h3>
+<h1>note</h1>
+<h1>About</h1>
+<p>此內容管理系統以 <a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 作為 submodule 運作, 可以選定對應的版本運作, cmsimde 可以持續改版, 不會影響之前設為 submodule, 使用舊版 cmsimde 模組的內容管理相關運作.</p>
+<h4>利用 cmsimde 建立靜態網誌方法:</h4>
+<p>1. 在 github 建立倉儲, git clone 到近端</p>
+<p>2. 參考 <a href="https://github.com/mdecourse/newcms">https://github.com/mdecourse/newcms</a>, 加入除了 cmsimde 目錄外的所有內容</p>
+<p>以 git submodule add <a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> cmsimde</p>
+<p>建立 cmsimde 目錄, 並從 github 取下子模組內容.</p>
+<p>3.在近端維護時, 更換目錄到倉儲中的 cmsimde, 以 python wsgi.py 啟動近端網際伺服器.</p>
+<p>動態內容編輯完成後, 以 generate_pages 轉為靜態內容, 以 git add commit 及 push 將內容推到遠端.</p>
+<p>4. 之後若要以 git clone 取下包含 submodule 的所有內容, 執行:</p>
+<p>git clone --recurse-submodules <a href="https://github.com/mdecourse/newcms.git">https://github.com/mdecourse/newcms.git</a></p>
+<h1>Develop</h1>
+<p><a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 的開發, 可以在一個目錄中放入 cmsimde, 然後將 up_dir 中的內容放到與 cmsimde 目錄同位階的地方, 使用 command 進入 cmsimde 目錄, 執行 python wsgi.py, 就可以啟動, 以瀏覽器 https://localhost:9443 就可以連接, 以 admin 作為管理者密碼, 就可以登入維護內容.</p>
+<p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
+<p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p>
