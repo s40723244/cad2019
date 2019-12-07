@@ -30,7 +30,7 @@ DELETE_OUTPUT_DIRECTORY = True
 
 # Following items are often useful when publishing
 
-DISQUS_SITENAME = "disqus_ikOLamsBC9"
+DISQUS_SITENAME = "cad2019"
 DISQUS_DISPLAY_COUNTS = False
 #GOOGLE_ANALYTICS = ""
 
