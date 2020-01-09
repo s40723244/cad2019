@@ -341,7 +341,8 @@ vertical: body pane on the botton</t>
 <t tx="leo.20200110040138.2">### 透過Python程式啟動或停止V-rep模擬
 
 
-&lt;p&gt;&lt;img caption="false" height="500" src="/images/1_Kr-r8E0ExCQeu4AyPNq1eg.gif" width="700"&gt;&lt;/p&gt;</t>
+&lt;p&gt;&lt;img caption="false" height="500" src="https://thumbs.gfycat.com/BriefDescriptiveIcterinewarbler-size_restricted.gif" width="700"&gt;&lt;/p&gt;
+</t>
 <t tx="leo.20200110040139.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
