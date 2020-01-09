@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by Leo: http://leoeditor.com/leo_toc.html -->
 <leo_file xmlns:leo="http://leoeditor.com/namespaces/leo-python-editor/1.1" >
-<leo_header file_format="2" tnodes="0" max_tnode_index="0" clone_windows="0"/>
-<globals body_outline_ratio="0.5" body_secondary_ratio="0.5">
-	<global_window_position top="50" left="50" height="500" width="700"/>
-	<global_log_window_position top="0" left="0" height="0" width="0"/>
-</globals>
+<leo_header file_format="2"/>
+<globals/>
 <preferences/>
 <find_panel_settings/>
 <vnodes>
@@ -13,30 +10,97 @@
 <v t="leo.20180902120538.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="leo.20180902120538.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
-<v t="leo.20180902120523.1" a="E"><vh>編輯 reveal</vh>
-<v t="leo.20180902120523.2" a="E"><vh>@path ./../reveal</vh>
-<v t="leo.20180902120523.3" a="E"><vh>@clean index.html</vh>
-<v t="leo.20180902120523.4" a="E"><vh>html</vh>
+<v t="leo.20180902120523.1"><vh>編輯 reveal</vh>
+<v t="leo.20180902120523.2"><vh>@path ./../reveal</vh>
+<v t="leo.20180902120523.3"><vh>@clean index.html</vh>
+<v t="leo.20180902120523.4"><vh>html</vh>
 <v t="leo.20180902120523.5"><vh>head</vh></v>
-<v t="leo.20180902120523.6" a="E"><vh>body</vh>
-<v t="leo.20180902120523.7" a="E"><vh>reveal div</vh>
-<v t="leo.20180902120523.8" a="E"><vh>slides div</vh>
-<v t="leo.20180902120523.9" a="E"><vh>封面投影片</vh>
+<v t="leo.20180902120523.6"><vh>body</vh>
+<v t="leo.20180902120523.7"><vh>reveal div</vh>
+<v t="leo.20180902120523.8"><vh>slides div</vh>
+<v t="leo.20180902120523.9"><vh>封面投影片</vh>
 <v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180902120523.11" a="E"><vh>快捷鍵</vh>
-<v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
+<v t="leo.20200110040135.1"><vh>week</vh>
+<v t="leo.20200110040135.2"><vh>week1</vh></v>
 </v>
-<v t="leo.20180902120523.13"><vh>各式內容引用範例</vh>
-<v t="leo.20180902120523.14" a="E"><vh>導入數學符號與方程式</vh>
-<v t="leo.20180902120523.15"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20200110040148.1"><vh>week</vh>
+<v t="leo.20200110040148.2"><vh>week2</vh></v>
 </v>
-<v t="leo.20180902120523.16" a="E"><vh>導入縮排程式碼</vh>
-<v t="leo.20180902120523.17"><vh>引用程式碼</vh></v>
+<v t="leo.20200110040149.1"><vh>week</vh>
+<v t="leo.20200110040149.2"><vh>week2</vh></v>
 </v>
-<v t="leo.20180902120523.18" a="E"><vh>導入影片</vh>
-<v t="leo.20180902120523.19"><vh>iframe 導入影片</vh></v>
+<v t="leo.20200110040147.1"><vh>week</vh>
+<v t="leo.20200110040147.2"><vh>week3</vh></v>
 </v>
+<v t="leo.20200110040145.1"><vh>week</vh>
+<v t="leo.20200110040145.2"><vh>week3</vh></v>
+</v>
+<v t="leo.20200110040144.1"><vh>week</vh>
+<v t="leo.20200110040144.2"><vh>week4</vh></v>
+</v>
+<v t="leo.20200110040143.1"><vh>week</vh>
+<v t="leo.20200110040143.2"><vh>week5</vh></v>
+</v>
+<v t="leo.20200110040142.1"><vh>week</vh>
+<v t="leo.20200110040142.2"><vh>week5</vh></v>
+</v>
+<v t="leo.20200110040141.1"><vh>week</vh>
+<v t="leo.20200110040141.2"><vh>week6</vh></v>
+</v>
+<v t="leo.20200110040140.1"><vh>week</vh>
+<v t="leo.20200110040140.2"><vh>week6</vh></v>
+</v>
+<v t="leo.20200110040136.1"><vh>week</vh>
+<v t="leo.20200110040136.2"><vh>week6</vh></v>
+</v>
+<v t="leo.20200110040138.1"><vh>week</vh>
+<v t="leo.20200110040138.2"><vh>week6</vh></v>
+</v>
+<v t="leo.20200110040139.1"><vh>week</vh>
+<v t="leo.20200110040139.2"><vh>week7</vh></v>
+</v>
+<v t="leo.20200110041923.1"><vh>week</vh>
+<v t="leo.20200110041923.2"><vh>week7</vh></v>
+</v>
+<v t="leo.20200110041926.1"><vh>week</vh>
+<v t="leo.20200110041926.2"><vh>week7</vh></v>
+</v>
+<v t="leo.20200110041933.1"><vh>week</vh>
+<v t="leo.20200110041933.2"><vh>week8</vh></v>
+</v>
+<v t="leo.20200110041935.1"><vh>week</vh>
+<v t="leo.20200110041935.2"><vh>week8</vh></v>
+</v>
+<v t="leo.20200110041936.1"><vh>week</vh>
+<v t="leo.20200110041936.2"><vh>week8</vh></v>
+</v>
+<v t="leo.20200110041937.1"><vh>week</vh>
+<v t="leo.20200110041937.2"><vh>week8</vh></v>
+</v>
+<v t="leo.20200110041938.1"><vh>week</vh>
+<v t="leo.20200110041938.2"><vh>week9</vh></v>
+</v>
+<v t="leo.20200110041940.1"><vh>week</vh>
+<v t="leo.20200110041940.2"><vh>week9</vh></v>
+</v>
+<v t="leo.20200110041939.1"><vh>week</vh>
+<v t="leo.20200110041939.2"><vh>week9</vh></v>
+</v>
+<v t="leo.20200110042819.1"><vh>week</vh>
+<v t="leo.20200110042819.2"><vh>week10-14</vh></v>
+</v>
+<v t="leo.20200110042827.1"><vh>week</vh>
+<v t="leo.20200110042827.2"><vh>week15</vh></v>
+</v>
+<v t="leo.20200110042826.1"><vh>week</vh>
+<v t="leo.20200110042826.2"><vh>week16</vh></v>
+</v>
+<v t="leo.20200110042834.1"><vh>week</vh>
+<v t="leo.20200110042834.2"><vh>week17</vh></v>
+</v>
+<v t="leo.20200110043826.1"><vh>END</vh>
+<v t="leo.20200110043826.2"><vh>END</vh></v>
 </v>
 </v>
 </v>
@@ -48,114 +112,25 @@
 </vnodes>
 <tnodes>
 <t tx="leo.20180902120523.1"></t>
-<t tx="leo.20180902120523.10">## CMSimfly 網際內容管理
+<t tx="leo.20180902120523.10">## S40723244期末簡報
 
-### KMOLab
+### 虎尾科技大學機械設計工程系
+
+
+
+．[個人倉儲](https://github.com/s40723244/cad2019)
+
+．[個人網站](https://s40723244.github.io/cad2019/content/index.html)
+
+．[分組倉儲](https://github.com/s40723212/cad2019bg1)
+
+．[分組網站](https://s40723212.github.io/cad2019bg1/)
+
+．[BLOG](https://s40723244.github.io/cad2019/blog/index.html)
 
 &lt;small&gt;
-Created by [KMOLab](http://lab.kmol.info/)
-&lt;/small&gt;
-
-[CMSimfly 網誌](./../blog/index.html)
-
-
-</t>
-<t tx="leo.20180902120523.11">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20180902120523.12"># 投影片快捷鍵
-
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
-
-</t>
-<t tx="leo.20180902120523.13">&lt;section&gt;
-@others
-&lt;/section&gt;
-
-</t>
-<t tx="leo.20180902120523.14">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20180902120523.15"># 數學符號與方程式
-
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
-</t>
-<t tx="leo.20180902120523.16">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20180902120523.17">## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-@language python
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
-
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
-</t>
-<t tx="leo.20180902120523.18">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20180902120523.19">## 使用 iframe 導入影片
-
-### 導入影片 template
-
-&lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-</t>
+Created by [劉冠志](https://www.youtube.com/channel/UCdM6GEV6nfk2bKg16MzWOIg?view_as=subscriber)
+&lt;/small&gt;</t>
 <t tx="leo.20180902120523.2"></t>
 <t tx="leo.20180902120523.3">@language xml
 @tabwidth -4
@@ -326,5 +301,388 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
+<t tx="leo.20200110040135.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110040135.2"># WEEK1
+
+．中秋連假~
+
+</t>
+<t tx="leo.20200110040136.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110040136.2">## 利用V-rep模擬車子的運動情形
+
+&lt;iframe width="700" height="500" src="https://www.youtube.com/embed/xxg4ScIhvFc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20200110040138.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110040138.2">### 透過Python程式啟動或停止V-rep模擬
+
+
+&lt;p&gt;&lt;img caption="false" height="500" src="/images/1_Kr-r8E0ExCQeu4AyPNq1eg.gif" width="700"&gt;&lt;/p&gt;</t>
+<t tx="leo.20200110040139.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110040139.2"># [WEEK7](https://s40723244.github.io/cad2019/content/week6-9.html)
+
+．編譯solvespace將about中的資訊改成自己的學號
+
+．練習繪製solvespace認證之題目</t>
+<t tx="leo.20200110040140.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110040140.2">### 利用Solvespace繪製零件並組裝車子
+
+&lt;iframe width="700" height="500" src="https://www.youtube.com/embed/QhnCFk9hRps" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20200110040141.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110040141.2"># [WEEK6](https://s40723244.github.io/cad2019/content/week6-9.html)
+
+．利用silvespacec繪製零件並組裝成車子
+
+．利用V-rep模擬車子的運動情形
+
+．透過Python程式啟動或停止V-rep模擬</t>
+<t tx="leo.20200110040142.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110040142.2">## Solvespace操作
+
+&lt;iframe width="700" height="500" src="https://www.youtube.com/embed/0gxQ9rkZ2nY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20200110040143.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110040143.2"># [WEEK5](https://s40723244.github.io/cad2019/content/week5.html)
+
+．學習Solvespace操作</t>
+<t tx="leo.20200110040144.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110040144.2"># [WEEK4](https://s40723244.github.io/cad2019/content/week4.html)
+
+．本周為追趕進度
+
+</t>
+<t tx="leo.20200110040145.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110040145.2">## 編譯Solvespace
+
+&lt;iframe width="700" height="500" src="https://www.youtube.com/embed/3IWNvAf47HY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200110040147.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110040147.2"># [WEEK3](https://s40723244.github.io/cad2019/content/week3.html)
+
+．編譯Solvespace
+
+．將Solvespace放入隨身碟中備用</t>
+<t tx="leo.20200110040148.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110040148.2"># [WEEK2](https://s40723244.github.io/cad2019/content/week2.html)
+
+．架設個人網站
+
+．決定分組成員</t>
+<t tx="leo.20200110040149.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110040149.2">## 架設個人網站
+
+
+&lt;iframe width="700" height="500" src="https://www.youtube.com/embed/R7eVU4VwxHE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20200110041923.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110041923.2">### 編譯solvespace將about中的資訊
+
+### 改成自己的學號
+
+&lt;iframe width="700" height="500" src="https://www.youtube.com/embed/0YHh3OEhuMI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20200110041926.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110041926.2">### 練習繪製solvespace認證之題目
+
+&lt;iframe width="700" height="500" src="https://www.youtube.com/embed/pwSkOWmmpHY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20200110041933.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110041933.2"># [WEEK8](https://s40723244.github.io/cad2019/content/week6-9.html)
+
+．編輯個人網誌內容
+
+．利用putty建立SSH
+
+．下載webot並設定啟動</t>
+<t tx="leo.20200110041935.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110041935.2">## 編輯個人網誌內容
+
+&lt;iframe width="700" height="500" src="https://www.youtube.com/embed/PYQV_twv1UY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20200110041936.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110041936.2">## 利用putty建立SSH
+
+&lt;iframe width="700" height="500" src="https://www.youtube.com/embed/y4pqbI4oWDY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20200110041937.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110041937.2">## 下載webot並設定啟動
+
+&lt;iframe width="700" height="500" src="https://www.youtube.com/embed/EUHlDY7yBoo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20200110041938.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110041938.2"># [WEEK9](https://s40723244.github.io/cad2019/content/week6-9.html)
+
+．期中報告
+
+．期中心得
+
+</t>
+<t tx="leo.20200110041939.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110041939.2">## 期中心得
+
+[點我前往](https://s40723244.github.io/cad2019/blog/2019-Fall-win10-40723244-1903.html)
+
+</t>
+<t tx="leo.20200110041940.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110041940.2">## 期中報告
+
+&lt;iframe width="700" height="500" src="https://www.youtube.com/embed/EWMZZv-4z68" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20200110042819.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110042819.2"># [WEEK10-14](https://s40723212.github.io/cad2019bg1/content/week10-14.html)
+
+本周至十四周開始進入分組協同工作
+
+由組長建立倉儲讓組員fork
+
+同時整理教科書內容
+
+[詳細內容請點此](https://s40723212.github.io/cad2019bg1/content/week10-14.html)</t>
+<t tx="leo.20200110042826.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110042826.2"># [WEEK16期末驗收](https://s40723244.github.io/cad2019/content/week16.html)
+
+這次的內容我不會做因此空白
+
+</t>
+<t tx="leo.20200110042827.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110042827.2"># [WEEK15期末驗收](https://s40723244.github.io/cad2019/content/week15.html)
+
+&lt;iframe width="700" height="500" src="https://www.youtube.com/embed/6vgdobes59U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20200110042834.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110042834.2"># [WEEK17期末驗收](https://s40723244.github.io/cad2019/content/week17.html)
+
+&lt;iframe width="700" height="500" src="https://www.youtube.com/embed/6pxnOWrnivo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20200110043826.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110043826.2"># 報告結束
+</t>
 </tnodes>
 </leo_file>
